@@ -5,4 +5,4 @@
 * Integers and negative numbers will throw back a prompt
 
 
-`Requires Gemfile and RSpec spec/fizz_buzz_spec.rb`
+`Requires Gemfile RSpec spec/fizz_buzz_spec.rb`
