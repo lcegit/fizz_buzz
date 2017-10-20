@@ -1,11 +1,11 @@
 def fizz_buzz(number)
-  if number % 15 == 0
+  if has_zero_as_remainder?(number, 15)
     'fizz buzz'
-  elsif number % 5 == 0
+  elsif has_zero_as_remainder?(number, 5)
     'buzz'
-  elsif number % 3 == 0
+  elsif has_zero_as_remainder?(number, 3)
     'fizz'
-  elsif number % 2 == 0
+  elsif has_zero_as_remainder?(number, 2)
     'even number'
   elsif number == number.to_s
     'is a string'
